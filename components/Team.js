@@ -9,6 +9,7 @@ import { ChevronUpIcon } from "@heroicons/react/solid";
 import userOneImg from "../public/img/user1.jpg";
 import userTwoImg from "../public/img/user2.jpg";
 import userThreeImg from "../public/img/user3.jpg";
+import userFourImg from "../public/img/user4.jpg";
 
 export default function Team() {
   return (
@@ -101,7 +102,7 @@ export default function Team() {
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             
             <Avatar
-              image={userTwoImg}
+              image={userFourImg}
               name="Jean Fred"
               title="UI Developer and Project Cordinator"
             />
