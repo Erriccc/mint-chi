@@ -2,7 +2,12 @@ import React, { useState } from "react";
 import { useForm, useWatch } from "react-hook-form";
 import { Disclosure, Transition } from "@headlessui/react";
 
+
+// const contactApiKey = process.env.CONTACT_APIKEY;
+
 export default function PopupWidget() {
+const contactApiKey = process.env.NEXT_PUBLIC_CONTACT_APIKEY;
+
   const {
     register,
     handleSubmit,
@@ -130,17 +135,19 @@ export default function PopupWidget() {
                     <form onSubmit={handleSubmit(onSubmit)} noValidate>
                       <input
                         type="hidden"
-                        value="YOUR_ACCESS_KEY_HERE"
+                        // value="ab704b37-b69b-4c89-a3a2-182c794a0c50"
+                        value= {contactApiKey}
+
                         {...register("apikey")}
                       />
                       <input
                         type="hidden"
-                        value={`${userName} sent a message from Nextly`}
+                        value={`${userName} sent a message from Mint-Chi`}
                         {...register("subject")}
                       />
                       <input
                         type="hidden"
-                        value="Nextly Template"
+                        value="Mint-Chi"
                         {...register("from_name")}
                       />
                       <input
