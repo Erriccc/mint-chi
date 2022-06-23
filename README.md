@@ -1,6 +1,7 @@
 <p align="center">
- <a href="https://web3templates.com/?ref=nextly_github_logo">
- <img src="https://user-images.githubusercontent.com/1884712/132941531-0fdd7acf-47ca-424e-b77f-1fab2e372a37.png" alt="W3T" width="100" height="41"/>
+ <a href="https://github.com/Erriccc/mint-chi-main">
+ <!-- <img src="./public/img/benefit-one.png" alt="mintChi" width="100" height="41"/> -->
+Welcome to MintChi's Landing Page GitHub Repo
  </a> 
  <br>
  <br>
@@ -11,11 +12,11 @@
  
 <!-- ![image](https://user-images.githubusercontent.com/1884712/121497169-03228680-c990-11eb-975a-e77fddc43de0.png) -->
 
-## How to use
+<!-- ## How to use -->
 
 <!-- Click on the [Use Template](https://github.com/surjithctly/nextly-template/generate) button on this page to clone this respository to your github account. Or you can also clone this respository using terminal or bash.  -->
 
-### 1\. Install dependencies
+<!-- ### 1\. Install dependencies
 
 ```
 yarn install
@@ -29,13 +30,13 @@ npm install
 yarn dev
 # or
 npm run dev
-```
+``` -->
 
-## Deploy with Vercel
+<!-- ## Deployed with Vercel -->
 
-Deploy this template using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/surjithctly/nextly-template&project-name=nextly-template&repository-name=nextly-template)
+<!-- Deploy this template using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example): -->
+<!-- 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/surjithctly/nextly-template&project-name=nextly-template&repository-name=nextly-template) -->
 
 
 ---
