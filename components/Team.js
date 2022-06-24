@@ -42,12 +42,12 @@ export default function Team() {
                     
                     <p className="text-2xl leading-normal ">
                       <Mark>About:</Mark>
-                      that hits some of your benefits from one of your popular customer.
+                      Blockchain developer and software engineer
                     </p>
                     <br/>
-                      phone:
+                      phone:857-309-8668
                       <br/>
-                      email:
+                      email: jjr@abbatti01@gmail.com
                     {/* </span> */}
                   </Disclosure.Panel>
                 </>
@@ -124,7 +124,7 @@ export default function Team() {
                   <Disclosure.Panel className="px-2 pt-2 pb-2 text-gray-500 dark:text-gray-300">
                   <p className="text-2xl leading-normal ">
                       <Mark>About:</Mark>
-                      that hits some of your benefits from one of your popular customer.
+                      Business developer, project manager and UI designer
                     </p>
                     <br/>
                       phone:
@@ -165,7 +165,7 @@ export default function Team() {
                   <Disclosure.Panel className="px-2 pt-2 pb-2 text-gray-500 dark:text-gray-300">
                   <p className="text-2xl leading-normal ">
                       <Mark>About:</Mark>
-                      that hits some of your benefits from one of your popular customer.
+                      Film photographer
                     </p>
                     <br/>
                       phone:
