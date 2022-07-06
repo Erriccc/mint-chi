@@ -82,7 +82,7 @@ export default function Team() {
                   <Disclosure.Panel className="px-4 pt-4 pb-2 text-gray-500 dark:text-gray-300">
                   <p className="text-2xl leading-normal ">
                       <Mark>About:</Mark>
-                       software programmer focused on developing tools and decentalized apps that improve the adoption and useability of blockchaain
+                       software programmer focused on developing tools and decentalized apps that improve the adoption and useability of blockchaain.
                     </p>
                     <br/>
                       phone: 217-288-3157
