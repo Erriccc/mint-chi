@@ -1,7 +1,7 @@
 {
-  "name": "nextly-template",
+  "name": "mint-chi",
   "version": "0.1.0",
-  "description": "Nextly Landing Page Template",
+  "description": "an NFT onboarding platform based in Chicago",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://gituhb.com/web3templates/nextly-template"
+    "url": "https://github.com/Erriccc/mint-chi-main"
   },
   "keywords": [
     "nextjs",
     "tailwindcss",
     "free"
   ],
-  "author": "Surjith S M",
+  "author": "Osborn Ojure",
   "license": "ISC",
   "dependencies": {
     "@emotion/css": "^11.1.3",

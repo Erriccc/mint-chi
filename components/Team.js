@@ -85,7 +85,7 @@ export default function Team() {
                        software programmer focused on developing tools and decentalized apps that improve the adoption and useability of blockchaain
                     </p>
                     <br/>
-                      phone: 2172883157
+                      phone: 217-288-3157
                       <br/>
                       email: jozizuke@gmail.com
                     {/* </span> */}
@@ -127,7 +127,7 @@ export default function Team() {
                       Business developer, project manager and UI designer
                     </p>
                     <br/>
-                      phone:
+                      phone: 773-433-6955
                       <br/>
                       email:
                     {/* </span> */}
@@ -168,7 +168,7 @@ export default function Team() {
                       Film photographer
                     </p>
                     <br/>
-                      phone:
+                      phone:773-987-9101
                       <br/>
                       email:
                     {/* </span> */}

@@ -90,7 +90,7 @@ export default function Footer() {
                 <span className="sr-only">Twitter</span>
                 <Twitter />
               </a>
-              <a
+              {/* <a
                 href="#"
                 target="_blank"
                 rel="noopener">
@@ -110,7 +110,7 @@ export default function Footer() {
                 rel="noopener">
                 <span className="sr-only">Linkedin</span>
                 <Linkedin />
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
