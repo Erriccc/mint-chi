@@ -31,14 +31,14 @@ export default function Hero() {
               
             </span>
 
-            <div className="flex p-1 m-2 flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
+            <div className="flex p-1 m-2 flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center bg-red-500 invisible md:visible sm:flex-row">
               {/* <a
                 href="https://web3templates.com/templates/nextly-landing-page-template-for-startups"
                 target="_blank"
                 rel="noopener"
                 // className="px-8 py-4 text-lg font-medium text-center text-white bg-indigo-600 rounded-md ">
                 className=""> */}
-                  <PopupWidget/>
+                  <PopupWidget  />
                 {/* contact us Today! */}
               {/* </a> */}
             </div>
