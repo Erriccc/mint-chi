@@ -8,7 +8,7 @@ import { ChevronUpIcon } from "@heroicons/react/solid";
 function MediumCard({ img, title, link , details}) {
   return (
     <div className="cursor-pointer mx-7 hover:scale-105 transform transition duration-300 ease-out" >
-      <div className="relative h-40 w-60">
+      <div className="relative h-40 w-50">
           {/* <a> */}
 
         {/* </a> */}
@@ -18,14 +18,11 @@ function MediumCard({ img, title, link , details}) {
 
               </Link>
       </div>
-      {/* <h3 className="text-l mt-3">{title}</h3>
-       */}
-        <div className="text-gray-600 w-full flex justify-center p-2 m-1 dark:text-gray-400">{title}</div>
         <Disclosure>
               {({ open }) => (
                 <>
                   <Disclosure.Button className="flex items-center justify-between w-full px-4 py-4 text-lg text-left text-gray-800 rounded-lg bg-gray-50 hover:bg-gray-100 focus:outline-none focus-visible:ring focus-visible:ring-indigo-100 focus-visible:ring-opacity-75 dark:bg-trueGray-800 dark:text-gray-200">
-                    <span>tap image</span>
+                    <span>{title}</span>
                     <ChevronUpIcon
                       className={`
                       ${
