@@ -13,11 +13,12 @@ export default function Hero() {
 
           <div className=""
             style={{
-                backgroundImage: `url(${heroImg.src})`,
-                width: '100%',
-                height: '100%',
-                backgroundSize: 'cover',
-                backgroundRepeat: 'no-repeat'
+                  backgroundImage: `url(${heroImg.src})`,
+                  width: '100%',
+                  height: '100%',
+                  backgroundSize: 'cover',
+                  backgroundRepeat: 'no-repeat'
+
             }}
           >
         <div className=" flex items-center w-full lg:w-1/2 p-5 m-4">
@@ -57,7 +58,7 @@ export default function Hero() {
         <div className="flex flex-col justify-center">
           <div className="text-xl text-center text-gray-700 dark:text-white">
             We use Blockchain Networks Trusted by <span className="text-blue-600">Millions</span>{" "}
-            users worldwide
+            of users worldwide
           </div>
 
           <div className="flex flex-wrap justify-center gap-5 mt-10 md:justify-around">

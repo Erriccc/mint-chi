@@ -21,12 +21,12 @@ const benefitOne = {
   image: benefitOneImg,
   bullets: [
     {
-      title: "Understand the Why",
+      title: "Understand the why",
       desc: "We explain the different Usecases and Utilities and value that  nfts can bring to you",
       icon: <EmojiHappyIcon />,
     },
     {
-      title: "Curious About Implementation strategies?",
+      title: "Curious about implementation strategies?",
       desc: "we share sucessfully executed cutting edge startegies that other nft collections have adopted",
       icon: <ChartSquareBarIcon />,
     },
@@ -60,7 +60,7 @@ const benefitTwo = {
       icon: <SunIcon />,
     },
     {
-      title: "smart contract auditing.",
+      title: "Smart contract auditing.",
       desc: "verify ownership, control and vulnerabilities  of your exisiting smart contract ",
       icon: <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
       <path strokeLinecap="round" strokeLinejoin="round" d="M15 5v2m0 4v2m0 4v2M5 5a2 2 0 00-2 2v3a2 2 0 110 4v3a2 2 0 002 2h14a2 2 0 002-2v-3a2 2 0 110-4V7a2 2 0 00-2-2H5z" />
@@ -78,7 +78,7 @@ const benefitTwo = {
 
 
 const benefitThree = {
-  title: "Varity of Assets to convert",
+  title: "Varity of assets to convert",
   desc: " These are some of the types of assets that you can convert to NFTs",
   image: benefitThreeImg,
   bullets: [
@@ -90,14 +90,14 @@ const benefitThree = {
     </svg>,
     },
     {
-      title: "Traditional Art",
+      title: "Traditional art",
       desc: "Give your physical art super powers by extending its reach and flexibility through Nfts",
       icon: <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
       <path strokeLinecap="round" strokeLinejoin="round" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
     </svg>,
     },
     {
-      title: "Murals and sculpted Art",
+      title: "Murals and sculpted art",
       desc: "Scan your  Murals and sculptures to convert them into digital versions and tokenized if needed",
       icon: <SunIcon />,
     },

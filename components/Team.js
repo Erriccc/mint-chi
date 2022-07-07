@@ -20,7 +20,7 @@ export default function Team() {
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <Avatar
               image={userOneImg}
-              name="Jide Abati"
+              name="Jide Abatti"
               title="Blockchain Software Developer"
             />
 
