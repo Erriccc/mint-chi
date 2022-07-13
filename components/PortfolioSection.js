@@ -2,7 +2,7 @@ import { useState } from "react";
 import Container from "./container";
 import SectionTitle from "../components/sectionTitle";
 import MediumCard from "../components/MediumCard";
-
+import { ChevronUpIcon, ChevronDownIcon } from "@heroicons/react/solid";
 import map3Icon from "../public/img/illustrations/undraw_my_current_location_re_whmt.svg";
 import map3PayIcon from "../public/img/illustrations/undraw_mobile_pay_re_sjb8.svg";
 import map3ProfilesIcon from "../public/img/illustrations/undraw_connecting_teams_re_hno7.svg";
@@ -94,6 +94,13 @@ export default function PortfolioSection() {
           {/* <h2 className="text-4xl font-semibold py-8">Live Anywhere</h2> */}
 
           <div className="flex space-x-3 overflow-scroll scrollbar-hide p-3 -ml-3">
+          <ChevronUpIcon
+                      className={`
+                      ${
+                        !open ? "transform rotate-180" : ""
+                      } 
+                      w-5 h-5 text-indigo-500`}
+                    />
             {ProjectData.map((project, index) => (
               <div>
               <MediumCard key={index} link={project.projectLink}img={project.url} title={project.projectName} details={project.description} />
@@ -107,6 +114,17 @@ export default function PortfolioSection() {
           </div>
         </section>
 
+        <div className="flex justify-center content-center p-4">
+        <ChevronDownIcon      className="transform rotate-90  w-12 h-12 text-blue-500" />
+        <ChevronDownIcon      className="transform rotate-90  w-12 h-12 text-blue-500" />
+        <ChevronDownIcon      className="transform rotate-90  w-12 h-12 text-blue-500" />
+        <ChevronDownIcon      className="transform rotate-90  w-12 h-12 text-blue-500" />
+          <h2 className=" text-blue-500  text-center tracking-wide align-middle text-lg w-10 "> </h2>
+        <ChevronUpIcon      className=" transform rotate-90 w-12 h-12 text-blue-500" />
+        <ChevronUpIcon      className=" transform rotate-90 w-12 h-12 text-blue-500" />
+        <ChevronUpIcon      className=" transform rotate-90 w-12 h-12 text-blue-500" />
+        <ChevronUpIcon      className=" transform rotate-90 w-12 h-12 text-blue-500" />
+          </div>
 
 
         {/* <div
