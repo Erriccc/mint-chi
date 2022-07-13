@@ -44,7 +44,7 @@ export default function Team() {
                       Blockchain developer and software engineer
                     </p>
                       <br/>
-                      email: jjr@abbatti01@gmail.com
+                      email: jjr.abatti01@gmail.com
                     {/* </span> */}
                   </Disclosure.Panel>
                 </>
