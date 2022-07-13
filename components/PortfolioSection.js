@@ -94,13 +94,6 @@ export default function PortfolioSection() {
           {/* <h2 className="text-4xl font-semibold py-8">Live Anywhere</h2> */}
 
           <div className="flex space-x-3 overflow-scroll scrollbar-hide p-3 -ml-3">
-          <ChevronUpIcon
-                      className={`
-                      ${
-                        !open ? "transform rotate-180" : ""
-                      } 
-                      w-5 h-5 text-indigo-500`}
-                    />
             {ProjectData.map((project, index) => (
               <div>
               <MediumCard key={index} link={project.projectLink}img={project.url} title={project.projectName} details={project.description} />
