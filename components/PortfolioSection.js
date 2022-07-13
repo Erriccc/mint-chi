@@ -39,31 +39,10 @@ export default function PortfolioSection() {
   
     },
     {
-      projectName: "Nft Collections",
-      projectLink: "https://github.com/Erriccc/MAP3.0",
-      url: "https://links.papareact.com/8ix",
-      description: "Nft collection for client "
-  
-    },
-    {
-      projectName: "Map3Dashboard",
-      projectLink: "https://github.com/Erriccc/MAP3.0",
-      url: map3DashboardIcon,
-      description: "Map3 Protocol is a project that primarily aims to improve peer to peer transfer of Erc20 cryptocurrencies on EVM compatible blockchains"
-  
-    },
-    {
-      projectName: "Fan Ticket Nft collection (testnet)",
-      projectLink: "https://github.com/Erriccc/MAP3.0",
-      url: fanTicketIcon,
-      description: "Nft collection for Nba fans that rewards fan loyalty"
-  
-    },
-    {
       projectName: "Chicago in Film",
-      projectLink: "https://github.com/Erriccc/MAP3.0",
+      projectLink: "https://analogwonderer.com/",
       url: "https://links.papareact.com/q7j",
-      description: "Chicago in Film is a project that highlights the uniqueness of chicagos skyline in film photography."
+      description: "Chicago in Film is a project that highlights the uniqueness of chicagos in film photography. by yours truely Nathan"
   
     },
     
@@ -74,7 +53,32 @@ export default function PortfolioSection() {
       url: NFABlogIcon,
       description: "a blog dedicated to educating readers about abstract blokchain concepts and ideas "
   
-    }
+    },
+    {
+      projectName: "Nft Collections",
+      projectLink: "https://github.com/Erriccc/MAP3.0",
+      url: "https://links.papareact.com/8ix",
+      description: "Nft collection for client "
+  
+    },
+    // {
+    //   projectName: "Map3Dashboard",
+    //   projectLink: "https://github.com/Erriccc/MAP3.0",
+    //   url: map3DashboardIcon,
+    //   description: "Map3 Protocol is a project that primarily aims to improve peer to peer transfer of Erc20 cryptocurrencies on EVM compatible blockchains"
+  
+    // },
+    // {
+    //   projectName: "Fan Ticket Nft collection (testnet)",
+    //   projectLink: "https://github.com/Erriccc/MAP3.0",
+    //   url: fanTicketIcon,
+    //   description: "Nft collection for Nba fans that rewards fan loyalty"
+  
+    // }
+    
+
+
+    
   
   ]
   
