@@ -39,13 +39,10 @@ export default function Team() {
                     />
                   </Disclosure.Button>
                   <Disclosure.Panel className="px-4 pt-4 pb-2 text-gray-500 dark:text-gray-300">
-                    
                     <p className="text-2xl leading-normal ">
                       <Mark>About:</Mark>
                       Blockchain developer and software engineer
                     </p>
-                    <br/>
-                      phone:857-309-8668
                       <br/>
                       email: jjr@abbatti01@gmail.com
                     {/* </span> */}
@@ -84,8 +81,6 @@ export default function Team() {
                       <Mark>About:</Mark>
                        software programmer focused on developing tools and decentalized apps that improve the adoption and useability of blockchaain.
                     </p>
-                    <br/>
-                      phone: 217-288-3157
                       <br/>
                       email: jozizuke@gmail.com
                     {/* </span> */}
@@ -126,10 +121,8 @@ export default function Team() {
                       <Mark>About:</Mark>
                       Business developer, project manager and UI designer
                     </p>
-                    <br/>
-                      phone: 773-433-6955
                       <br/>
-                      email:
+                      email:zibou36@gmail.com
                     {/* </span> */}
                   </Disclosure.Panel>
                 </>
@@ -167,10 +160,8 @@ export default function Team() {
                       <Mark>About:</Mark>
                       Film photographer
                     </p>
-                    <br/>
-                      phone:773-987-9101
                       <br/>
-                      email:
+                      email:jozizuke@gmail.com
                     {/* </span> */}
                   </Disclosure.Panel>
                 </>
