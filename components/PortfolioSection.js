@@ -25,19 +25,26 @@ export default function PortfolioSection() {
   
     },
     {
-      projectName: "Map3Pay",
+      projectName: "Nft Collections",
       projectLink: "https://github.com/Erriccc/MAP3.0",
-      url: map3PayIcon,
-      description: "Map3Pay is a blockchain native open payment gateway that lets users on both sides of a payment decide what cryptocurrency they prefer while it takes care of all the necessary swaps and transfers behind the scenes. As a payment system, Map3Pay takes a unique approach  an efficient flexible payment system that"
-  
-  },
-    {
-      projectName: "Map3Profiles",
-      projectLink: "https://github.com/Erriccc/MAP3.0",
-      url: map3ProfilesIcon,
-      description: "Map 3 provides premium dedicated profiles for vendors or frequent private users. Map3 Vendor Profiles are technically non fungible tokens minted when a user signs up to become a vendor. Map3 vendors provide an ecosystem of users and vendors transacting between different tokens and assets in an easy and efficient way"
+      url: "https://links.papareact.com/8ix",
+      description: "Nft collection for client "
   
     },
+  //   {
+  //     projectName: "Map3Pay",
+  //     projectLink: "https://github.com/Erriccc/MAP3.0",
+  //     url: map3PayIcon,
+  //     description: "Map3Pay is a blockchain native open payment gateway that lets users on both sides of a payment decide what cryptocurrency they prefer while it takes care of all the necessary swaps and transfers behind the scenes. As a payment system, Map3Pay takes a unique approach  an efficient flexible payment system that"
+  
+  // },
+  //   {
+  //     projectName: "Map3Profiles",
+  //     projectLink: "https://github.com/Erriccc/MAP3.0",
+  //     url: map3ProfilesIcon,
+  //     description: "Map 3 provides premium dedicated profiles for vendors or frequent private users. Map3 Vendor Profiles are technically non fungible tokens minted when a user signs up to become a vendor. Map3 vendors provide an ecosystem of users and vendors transacting between different tokens and assets in an easy and efficient way"
+  
+  //   },
     {
       projectName: "Chicago in Film",
       projectLink: "https://analogwonderer.com/",
@@ -55,10 +62,10 @@ export default function PortfolioSection() {
   
     },
     {
-      projectName: "Nft Collections",
-      projectLink: "https://github.com/Erriccc/MAP3.0",
+      projectName: "Web3 Flow",
+      projectLink: "https://huncho-j.github.io/Web3Flow",
       url: "https://links.papareact.com/8ix",
-      description: "Nft collection for client "
+      description: "A tool that bridges cryptocurrencies and assets between different blockchain networks "
   
     },
     // {
