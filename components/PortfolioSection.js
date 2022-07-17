@@ -25,12 +25,19 @@ export default function PortfolioSection() {
   
     },
     {
-      projectName: "Nft Collections",
-      projectLink: "https://github.com/Erriccc/MAP3.0",
-      url: "https://links.papareact.com/8ix",
-      description: "Nft collection for client "
+      projectName: "NFA Blogs",
+      projectLink: "https://medium.com/@NFAblog",
+      url: NFABlogIcon,
+      description: "a blog dedicated to educating readers about abstract blokchain concepts and ideas "
   
     },
+    // {
+    //   projectName: "Nft Collections",
+    //   projectLink: "https://github.com/Erriccc/MAP3.0",
+    //   url: "https://links.papareact.com/8ix",
+    //   description: "Nft collection for client "
+  
+    // },
   //   {
   //     projectName: "Map3Pay",
   //     projectLink: "https://github.com/Erriccc/MAP3.0",
@@ -54,13 +61,7 @@ export default function PortfolioSection() {
     },
     
     
-    {
-      projectName: "NFA Blogs",
-      projectLink: "https://medium.com/@NFAblog",
-      url: NFABlogIcon,
-      description: "a blog dedicated to educating readers about abstract blokchain concepts and ideas "
-  
-    },
+    
     {
       projectName: "Web3 Flow",
       projectLink: "https://huncho-j.github.io/Web3Flow",
