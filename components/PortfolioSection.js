@@ -19,7 +19,7 @@ export default function PortfolioSection() {
   
     {
       projectName: "Map3.0",
-      projectLink: "https://github.com/Erriccc/MAP3.0",
+      projectLink: "https://map3.vercel.app/",
       url: map3Icon,
       description: "Map3.0 is a geographical representation of map3 vendors. Map3.0 connects cryptocurrency users with real world crypto friendly vendors around them"
   
