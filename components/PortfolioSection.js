@@ -115,7 +115,7 @@ export default function PortfolioSection() {
           </div>
         </section>
 
-        <div className="flex justify-center content-center p-4">
+        {/* <div className="flex justify-center content-center p-4">
         <ChevronDownIcon      className="transform rotate-90  w-12 h-12 text-blue-500" />
         <ChevronDownIcon      className="transform rotate-90  w-12 h-12 text-blue-500" />
         <ChevronDownIcon      className="transform rotate-90  w-12 h-12 text-blue-500" />
@@ -125,7 +125,7 @@ export default function PortfolioSection() {
         <ChevronUpIcon      className=" transform rotate-90 w-12 h-12 text-blue-500" />
         <ChevronUpIcon      className=" transform rotate-90 w-12 h-12 text-blue-500" />
         <ChevronUpIcon      className=" transform rotate-90 w-12 h-12 text-blue-500" />
-          </div>
+          </div> */}
 
 
         {/* <div

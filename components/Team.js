@@ -16,12 +16,93 @@ export default function Team() {
     <Container>
       <div className="grid gap-10 lg:grid-cols-2">
 
+
+      <div className="">
+          <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
+            
+            <Avatar
+              image={userFourImg}
+              name="Jean Fred"
+              title="Founder and Project Cordinator"
+            />
+
+  <div  className="mb-2">
+            <Disclosure>
+              {({ open }) => (
+                <>
+                  <Disclosure.Button className="flex items-center justify-between w-full px-4 py-4 text-lg text-left text-gray-800 rounded-lg bg-gray-50 hover:bg-gray-100 focus:outline-none focus-visible:ring focus-visible:ring-indigo-100 focus-visible:ring-opacity-75 dark:bg-trueGray-800 dark:text-gray-200">
+                    <span>Learn More</span>
+                    <ChevronUpIcon
+                      className={`
+                      ${
+                        !open ? "transform rotate-180" : ""
+                      } 
+                      w-5 h-5 text-indigo-500`}
+                    />
+                  </Disclosure.Button>
+                  <Disclosure.Panel className="px-2 pt-2 pb-2 text-gray-500 dark:text-gray-300">
+                  <p className="text-2xl leading-normal ">
+                      <Mark>About:</Mark>
+                      Founder, Business developer and  project manager.
+                    </p>
+                      <br/>
+                      email:zibou36@gmail.com
+                    {/* </span> */}
+                  </Disclosure.Panel>
+                </>
+              )}
+            </Disclosure>
+    </div>
+          
+          </div>
+        </div>
+        <div className="">
+          <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
+            
+            <Avatar
+              image={userThreeImg}
+              name="Nathan Dejene"
+              title="Collaborations Cordinator and Film Photographer"
+            />
+
+<div  className="mb-2">
+            <Disclosure>
+              {({ open }) => (
+                <>
+                  <Disclosure.Button className="flex items-center justify-between w-full px-4 py-4 text-lg text-left text-gray-800 rounded-lg bg-gray-50 hover:bg-gray-100 focus:outline-none focus-visible:ring focus-visible:ring-indigo-100 focus-visible:ring-opacity-75 dark:bg-trueGray-800 dark:text-gray-200">
+                    <span>Learn More</span>
+                    <ChevronUpIcon
+                      className={`
+                      ${
+                        !open ? "transform rotate-180" : ""
+                      } 
+                      w-5 h-5 text-indigo-500`}
+                    />
+                  </Disclosure.Button>
+                  <Disclosure.Panel className="px-2 pt-2 pb-2 text-gray-500 dark:text-gray-300">
+                  <p className="text-2xl leading-normal ">
+                      <Mark>About:</Mark>
+                      Film photographer
+                    </p>
+                      <br/>
+                      email:osbornojure@gmail.com
+                    {/* </span> */}
+                  </Disclosure.Panel>
+                </>
+              )}
+            </Disclosure>
+          </div>
+          
+          </div>
+        </div>
+
+
         <div className="lg:col-span-2 xl:col-auto">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <Avatar
               image={userOneImg}
               name="Jide Abatti"
-              title="Blockchain Software Developer"
+              title="Smart contract security analyst and auditor"
             />
 
           <div  className="mb-2">
@@ -93,84 +174,7 @@ export default function Team() {
 
           </div>
         </div>
-        <div className="">
-          <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
-            
-            <Avatar
-              image={userFourImg}
-              name="Jean Fred"
-              title="UI Developer and Project Cordinator"
-            />
-
-<div  className="mb-2">
-            <Disclosure>
-              {({ open }) => (
-                <>
-                  <Disclosure.Button className="flex items-center justify-between w-full px-4 py-4 text-lg text-left text-gray-800 rounded-lg bg-gray-50 hover:bg-gray-100 focus:outline-none focus-visible:ring focus-visible:ring-indigo-100 focus-visible:ring-opacity-75 dark:bg-trueGray-800 dark:text-gray-200">
-                    <span>Learn More</span>
-                    <ChevronUpIcon
-                      className={`
-                      ${
-                        !open ? "transform rotate-180" : ""
-                      } 
-                      w-5 h-5 text-indigo-500`}
-                    />
-                  </Disclosure.Button>
-                  <Disclosure.Panel className="px-2 pt-2 pb-2 text-gray-500 dark:text-gray-300">
-                  <p className="text-2xl leading-normal ">
-                      <Mark>About:</Mark>
-                      Business developer, project manager and UI designer
-                    </p>
-                      <br/>
-                      email:zibou36@gmail.com
-                    {/* </span> */}
-                  </Disclosure.Panel>
-                </>
-              )}
-            </Disclosure>
-          </div>
-          
-          </div>
-        </div>
-        <div className="">
-          <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
-            
-            <Avatar
-              image={userThreeImg}
-              name="Nathan Dejene"
-              title="Film Photographer and Collaborations Cordinator"
-            />
-
-<div  className="mb-2">
-            <Disclosure>
-              {({ open }) => (
-                <>
-                  <Disclosure.Button className="flex items-center justify-between w-full px-4 py-4 text-lg text-left text-gray-800 rounded-lg bg-gray-50 hover:bg-gray-100 focus:outline-none focus-visible:ring focus-visible:ring-indigo-100 focus-visible:ring-opacity-75 dark:bg-trueGray-800 dark:text-gray-200">
-                    <span>Learn More</span>
-                    <ChevronUpIcon
-                      className={`
-                      ${
-                        !open ? "transform rotate-180" : ""
-                      } 
-                      w-5 h-5 text-indigo-500`}
-                    />
-                  </Disclosure.Button>
-                  <Disclosure.Panel className="px-2 pt-2 pb-2 text-gray-500 dark:text-gray-300">
-                  <p className="text-2xl leading-normal ">
-                      <Mark>About:</Mark>
-                      Film photographer
-                    </p>
-                      <br/>
-                      email:jozizuke@gmail.com
-                    {/* </span> */}
-                  </Disclosure.Panel>
-                </>
-              )}
-            </Disclosure>
-          </div>
-          
-          </div>
-        </div>
+       
       </div>
 
       
