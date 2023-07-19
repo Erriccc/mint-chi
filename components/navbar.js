@@ -31,7 +31,7 @@ export default function Navbar() {
                         height="32"
                         className="w-8"
                       /> */}
-                    <h3 className="text-blue-500 font-medium">mint<span className="text-gray-400 font-bold"> Chi</span></h3>
+                    <h5 className="text-blue-500 font-medium">MINTCHI ASSET MANAGEMENT<span className="text-gray-400 font-bold"> LLC</span></h5>
 
                     </span>
                     {/* <span>Nextly</span> */}

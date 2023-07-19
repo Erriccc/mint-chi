@@ -94,7 +94,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>MintChi is a chicago based platform that helps users convert their assets into NFTS</title>
+        <title>MINTCHI ASSET MANAGEMENT LLC is chicago based, and helps users convert their assets into NFTS</title>
         <meta
           name="description"
           content="MintChi is a chicago based platform that helps users convert their assets into NFTS"
