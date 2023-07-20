@@ -110,7 +110,7 @@ export default function Home() {
         // pretitle="MintChi "
         title=" Why should you collaborate with us?" >
           <span className="text-gray-500 leading-loose">
-          Understanding the proccess and advantages of converting your assets to Nfts can be very daunting and time consuming.
+          Understanding the process and advantages of converting your assets to Nfts can be very daunting and time consuming.
          By partnering With MintChi, You are effectively investing in your time by hiring a fully cappable team to support you every step of the way!
           </span>
         
