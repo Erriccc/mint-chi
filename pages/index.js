@@ -99,6 +99,7 @@ export default function Home() {
           name="description"
           content="MintChi is a chicago based platform that helps users convert their assets into NFTS"
         />
+        <meta name="facebook-domain-verification" content="b2tq9hnyhba5r8r08lu7yuy03xjhbu" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
