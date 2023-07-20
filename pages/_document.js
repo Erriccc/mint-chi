@@ -34,6 +34,7 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
+        <meta name="facebook-domain-verification" content="b2tq9hnyhba5r8r08lu7yuy03xjhbu" />
           <link
             href="https://fonts.googleapis.com/css2?family=Inter:wght@400..700&display=swap"
             rel="stylesheet"
